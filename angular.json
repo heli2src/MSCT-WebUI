@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tcc-dashboard:build"
+            "buildTarget": "tcc-dashboard:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tcc-dashboard:build:production"
+              "buildTarget": "tcc-dashboard:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tcc-dashboard:build"
+            "buildTarget": "tcc-dashboard:build"
           }
         },
         "test": {
@@ -194,18 +194,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "msct-webui:build"
+            "buildTarget": "msct-webui:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "msct-webui:build:production"
+              "buildTarget": "msct-webui:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "msct-webui:build"
+            "buildTarget": "msct-webui:build"
           }
         },
         "test": {
@@ -291,6 +291,5 @@
         }
       }
     }
-  },
-  "defaultProject": "tcc-dashboard"
+  }
 }
